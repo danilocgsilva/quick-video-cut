@@ -2,7 +2,7 @@
 
 You have a video, and desire to create a new one based on such video fragment.
 
-* Platform: Windows
+* Platforms: Windows, Linux and Mac
 
 ## Prerequisites
 
@@ -10,8 +10,14 @@ You needs have installed and searchable in path the ffmpeg utility: http://ffmpe
 
 ## Usage
 
+In Windows:
 ```
 qvc.cmd "VIDEO_FILE" "STARTING_TIME" "PROLONG_TIME"
+```
+
+In Linux or Mac:
+```
+qvc.sh "VIDEO_FILE" "STARTING_TIME" "PROLONG_TIME"
 ```
 
 Example: If you have a vide called "my_sweet_memories.mp4" and want to create a new video that starts from 1 minute and 30 from this video and ends 15 seconds forward, then you should type:
